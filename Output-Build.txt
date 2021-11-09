@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: Inheritance, Configuration: Debug Any CPU ------
+1>C:\Users\shake\repos\InheritanceExercise\Inheritance\Program.cs(33,24,33,25): error CS1525: Invalid expression term '['
+1>Done building project "Inheritance.csproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========

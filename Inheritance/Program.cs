@@ -28,12 +28,46 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            var cardinal = new Bird() 
+            { 
+                Legs = 2, 
+                IsLiving = true, 
+                HasTail = true, 
+                CanSing = true, 
+                CanSwim = false, 
+                LaysEggs = true,
+            };
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Reptile class
              *  
              * Creatively display the class member values 
              */
+            var Rattlesnake = new Reptile() 
+            { 
+                Legs = 0, 
+                Color = "green", 
+                HasScales = true,
+                IsColdBlooded = true, 
+                Mobility = "slithers" 
+            };
+
+            Bird Penguin = new Bird() 
+            { 
+                CanFly = false, 
+                CanSwim = true, 
+                HasFeathers = true, 
+                Legs = 2 ,
+            };
+
+            cardinal.Printdetails();
+            Console.WriteLine();
+
+            Penguin.Printdetails();
+            Console.WriteLine();
+
+            Rattlesnake.Printdetails();
+            Console.WriteLine(); 
         }
     }
 }
